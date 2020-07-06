@@ -7,7 +7,7 @@ import Detector from '@aeternity/aepp-sdk/es/utils/aepp-wallet-communication/wal
 import BrowserWindowMessageConnection from '@aeternity/aepp-sdk/es/utils/aepp-wallet-communication/connection/browser-window-message';
 import { BigNumber } from 'bignumber.js';
 
-import TIPPING_INTERFACE from '../contracts/TippingInterface.aes';
+import TIPPING_INTERFACE from 'tipping-contract/TippingInterface.aes';
 import FUNGIBLE_TOKEN_CONTRACT from '../contracts/FungibleTokenInterface.aes';
 import { EventBus } from './eventBus';
 
